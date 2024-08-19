@@ -1,0 +1,51 @@
+body {
+    background-image: url(/images/pexels-james-frid-81279-1098764.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+header div {
+    display: inline-flex;
+    width: 100vw;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+header img {
+    border-radius: 90%;
+    margin-left: -10%;
+}
+
+
+#navDiv {
+    width: 100vw;
+    border-top: 1px solid gray;
+    background-color: white;
+    text-align: center;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 60%;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav a {
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+nav a p {
+    margin-right: 5px;
+}
