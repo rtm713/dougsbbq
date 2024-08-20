@@ -2,7 +2,17 @@
 
 # TODO
 
+mock setup for...
+
 landing screen
 recipies
-sauces and rubs
+shop
 about
+contact me
+
+
+
+
+
+
+

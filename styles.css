@@ -3,12 +3,13 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
 }
 
 header div {
     display: inline-flex;
     width: 100vw;
-    font-family: 'Oswald', sans-serif;
     background-color: rgb(255, 255, 255);
     padding: 20px;
     justify-content: center;
@@ -48,4 +49,73 @@ nav a {
 
 nav a p {
     margin-right: 5px;
+}
+
+
+
+/* -------------------------- MAINSSS -----------------------------------------------------------------------  */
+
+
+#mainCardHead {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+#mainCardHead hr {
+    width: 45%;
+    height: 0;
+    margin-top: 6rem;
+}
+
+#mainCardHead h2 {
+    width: 35%;
+}
+
+
+/* ----------------------------   recipes main page    -----------------------------------------------------------*/
+
+
+#recipesMainCard h2 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px black;
+}
+
+#recipesMainButtonBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.recButton {
+    width: 45%;
+    height: 7rem;
+    margin: 0 auto 30px auto;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    text-decoration: none;
+}
+
+#allRecButton {
+    background-image: url(./images/All\ recipies.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#chickenRecButton {
+    background-image: url(./images/chicken\ button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#beefRecButton {
+    background-image: url(./images/brisket.jpg);
+    background-position: center;
+    background-size: cover;
 }
