@@ -119,3 +119,26 @@ nav a p {
     background-position: center;
     background-size: cover;
 }
+
+
+
+.recipeCardBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding: 5% 0 0 0;
+}
+
+.recipeCard {
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.recipeCard img {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
