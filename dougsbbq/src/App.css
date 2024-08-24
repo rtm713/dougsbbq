@@ -60,24 +60,31 @@ nav a p {
 }
 
 #landingFeaturedBox {
-    background-color: white;
     width: 60%;
-    height: 40rem;
+    height: 35rem;
 
 }
 
 #featuredCard {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: red;
+    align-items: end;
+    justify-content: end;
+    background-image: url(images/charcoalGrilledRibs.webp);
+    background-size: cover;
+    background-position: center;
     height: 25rem;
+    border: 1px solid black;
+    box-shadow: 1px 1px 8px black;
+}
 
+#featuredCard h3{
+    color: white;
+    font-size: 60px;
+    background-color: rgb(31, 31, 31, .7);
 }
 
   
 #featuredMoreCardbox {
-    background-color: green;
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
@@ -85,13 +92,46 @@ nav a p {
 }
 
 #landingBioCard {
-    background-color: blue;
+    background-color: white;
     width: 25%;
+    border: 1px solid black;
+    box-shadow: 1px 1px 8px black;
 }
 
 .featuredMoreCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 30%;
-    background-color: cyan;
+    height: 8rem;
+    border: 1px solid black;
+    box-shadow: 1px 1px 8px black;
+}
+
+.featuredMoreCard p {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 38px;
+    background-color: rgb(31, 31, 31, .6);
+    width: 100%;
+}
+
+#featuredMoreOne {
+    background-image: url(images/genericFOOD111.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#featuredMoreTwo {
+    background-image: url(images/spices111.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#featuredMoreThree {
+    background-image: url(images/genericSauceFood.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 

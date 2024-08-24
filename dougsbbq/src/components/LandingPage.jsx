@@ -15,10 +15,10 @@ export default function LandingPage() {
                 <p>More Recipes</p>
               </div>
               <div id='featuredMoreTwo'className='featuredMoreCard'>
-                <p>Sauces</p>
+                <p>Seasonings</p>
               </div>
               <div id='featuredMoreThree'className='featuredMoreCard'>
-                <p>Seasonings</p>
+                <p>Sauces</p>
               </div>
             </div>
           </div>
