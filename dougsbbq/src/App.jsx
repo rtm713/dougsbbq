@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1>DOUGS BBQ TEST h1</h1>
+      <Outlet/>
     </>
   )
 }
