@@ -22,9 +22,9 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
-          <div id='landingBioCard'>
-            <img src="" alt="" />
-            <p>this is where the description will go h uidshu idhuih duisfh uih fuidh fuidsbhfb dsu fuu hu iufuig sfghgh hfbhiuh ui giusb gjkb fhgbig hfbgjhj gnuf kjgnfjngj sfhg jkfb gjkb fjngjkf jk fgbjf gjk fjk gf gjfgjnfjk sgui jhgjk j huhu</p>
+          <div id='landingBioCard'> 
+            <img src="images/dougBioPic.jpg" alt="" />
+            <p>Hi, Im Doug, This is where the description will go h uidshu idhuih duisfh uih fuidh fuidsbhfb dsu fuu hu iufuig sfghgh hfbhiuh ui giusb gjkb fhgbig hfbgjhj gnuf kjgnfjngj sfhg jkfb gjkb fjngjkf jk fgbjf gjk fjk gf gjfgjnfjk sgui jhgjk j huhu fhu hfiu hfuh fhdu hfiu dui hiuh fduih fuidh sfhds uif ds fhdsbhf hdb fsdb fb dshbfdsb hfbds fh sdh</p>
           </div>
         </div>
       </>

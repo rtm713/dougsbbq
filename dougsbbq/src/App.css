@@ -10,7 +10,9 @@ body {
 header div {
     display: inline-flex;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-image: url(../public/images/charcoalbackground.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 20px 0 20px 0;
     justify-content: center;
 }
@@ -18,18 +20,20 @@ header div {
 header h1 {
     font-size: 50px;
     margin-left: 5%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 header img {
     border-radius: 90%;
     margin-left: -10%;
+    box-shadow: 2px 2px 4px black;
 }
 
 
 #navDiv {
     width: 100%;
-    border-top: 1px solid gray;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -92,10 +96,20 @@ nav a p {
 }
 
 #landingBioCard {
-    background-color: white;
     width: 25%;
+}
+
+#landingBioCard img {
+    border-radius: 80%;
     border: 1px solid black;
     box-shadow: 1px 1px 8px black;
+}
+
+#landingBioCard p {
+    color: white;
+    background-color: rgb(0, 0, 0, .6);
+    padding: 1rem;
+    font-size: 18px;
 }
 
 .featuredMoreCard {
