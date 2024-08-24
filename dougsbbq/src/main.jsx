@@ -10,7 +10,7 @@ import Recipes from './components/Recipes.jsx';
 
 const router = createBrowserRouter([
 {
-  path: "/",
+  path: "/dougsbbq",
   element: <App/>,
   children:[
     {
