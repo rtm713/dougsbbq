@@ -8,16 +8,14 @@ export default function Recipes() {
         <div className="recipesMainCard">
         <div id="mainCardHead">
             <hr></hr>
-            <h2>RECIPES</h2>
+            <h2>ALL RECIPES</h2>
             <hr></hr>
         </div>
-        <div id="recipesMainButtonBox">
-            <a href="AllRecipes" class="recButton" id="allRecButton">
-                <p>ALL RECIPES</p>
-            </a>
-            <a href="" class="recButton" id="chickenRecButton">
-                <p>CHICKEN</p>
-            </a>
+        <div className="recipeCardBox">
+            <div className="recipeCard">
+                <img src="images/charcoalGrilledRibs.webp" alt=""/>
+                <h3>Charcoal Grilled Ribs</h3>
+            </div>
         </div>
     </div>
       </>

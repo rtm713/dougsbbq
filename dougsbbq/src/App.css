@@ -62,25 +62,26 @@ nav a p {
     margin: auto;
 }
 #mainCardHead hr {
-    width: 45%;
+    width: 40%;
     height: 0;
     margin-top: 6rem;
 }
 
 #mainCardHead h2 {
-    width: 35%;
+    width: fit-content;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 
 /* ----------------------------   recipes main page    -----------------------------------------------------------*/
 
 
-#recipesMainCard h2 {
-    text-align: center;
-    color: white;
-    font-size: 60px;
-    text-shadow: 2px 2px 5px black;
-}
 
 #recipesMainButtonBox {
     display: flex;

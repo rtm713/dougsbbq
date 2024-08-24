@@ -13,7 +13,11 @@ export default function Navbar() {
         </header>
         <div id="navDiv">
         <nav>
-  <Link to="/recipes">
+          <Link to="/dougsbbq/">
+            <p>Home</p>
+          <svg fill="#000000" width="25px" height="25px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M27 18.039L16 9.501 5 18.039V14.56l11-8.54 11 8.538v3.481zm-2.75-.31v8.251h-5.5v-5.5h-5.5v5.5h-5.5v-8.25L16 11.543l8.25 6.186z"></path></g></svg>
+          </Link>
+  <Link to="/dougsbbq/recipes">
     <p>Recipes</p>
     <svg
       fill="#000000"
@@ -45,7 +49,7 @@ export default function Navbar() {
     </svg>
   </Link>
 
-  <Link to="/shop">
+  <Link to="/dougsbbq/shop">
     <p>Shop</p>
     <svg
       width="20px"
@@ -77,7 +81,7 @@ export default function Navbar() {
     </svg>
   </Link>
 
-  <Link to="/about">
+  <Link to="/dougsbbq/about">
     <p>About</p>
     <svg
       width="20px"
