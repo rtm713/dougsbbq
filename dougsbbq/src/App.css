@@ -10,7 +10,7 @@ body {
 header div {
     display: inline-flex;
     width: 100%;
-    background-image: url(../public/images/charcoalbackground.jpg);
+    background-image: url(/images/charcoalbackground.jpg);
     background-size: cover;
     background-position: center;
     padding: 20px 0 20px 0;
@@ -73,7 +73,7 @@ nav a p {
     display: flex;
     align-items: end;
     justify-content: end;
-    background-image: url(images/charcoalGrilledRibs.webp);
+    background-image: url(/images/charcoalGrilledRibs.webp);
     background-size: cover;
     background-position: center;
     height: 25rem;
@@ -131,19 +131,19 @@ nav a p {
 }
 
 #featuredMoreOne {
-    background-image: url(images/genericFOOD111.jpg);
+    background-image: url(/images/genericFOOD111.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #featuredMoreTwo {
-    background-image: url(images/spices111.jpg);
+    background-image: url(/images/spices111.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #featuredMoreThree {
-    background-image: url(images/genericSauceFood.jpg);
+    background-image: url(/images/genericSauceFood.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -201,19 +201,19 @@ nav a p {
 }
 
 #allRecButton {
-    background-image: url(./images/All\ recipies.jpg);
+    background-image: url(/images/allrecipies.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #chickenRecButton {
-    background-image: url(./images/chicken\ button.jpg);
+    background-image: url(/images/chickenbutton.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #beefRecButton {
-    background-image: url(./images/brisket.jpg);
+    background-image: url(/images/brisket.jpg);
     background-position: center;
     background-size: cover;
 }
