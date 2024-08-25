@@ -1,7 +1,7 @@
 import Navbar from './Navbar'
 import { Link, useNavigate } from 'react-router-dom'
 
-export default function Recipes() {
+export default function Allrecipes() {
     return (
       <>
         <Navbar/>
@@ -12,10 +12,10 @@ export default function Recipes() {
             <hr></hr>
         </div>
         <div className="recipeCardBox">
-            <div className="recipeCard">
+            <Link to="/dougsbbq/recipePage" className="recipeCard">
                 <img src="images/charcoalGrilledRibs.webp" alt=""/>
                 <h3>Charcoal Grilled Ribs</h3>
-            </div>
+            </Link>
         </div>
     </div>
       </>

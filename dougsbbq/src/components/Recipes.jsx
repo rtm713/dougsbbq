@@ -12,12 +12,12 @@ export default function Recipes() {
             <hr></hr>
         </div>
         <div id="recipesMainButtonBox">
-            <a href="/dougsbbq/allrecipes" class="recButton" id="allRecButton">
+            <Link to="/dougsbbq/Allrecipes" className="recButton" id="allRecButton">
                 <p>ALL RECIPES</p>
-            </a>
-            <a href="" class="recButton" id="chickenRecButton">
+            </Link>
+            <Link to="" className="recButton" id="chickenRecButton">
                 <p>CHICKEN</p>
-            </a>
+            </Link>
         </div>
     </div>
       </>

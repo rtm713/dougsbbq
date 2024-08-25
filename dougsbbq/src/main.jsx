@@ -6,8 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import LandingPage from './components/LandingPage.jsx';
 import Recipes from './components/Recipes.jsx';
-import allrecipes from './components/allrecipes.jsx';
-
+import Allrecipes from './components/Allrecipes.jsx';
+import RecipePage from './components/RecipePage.jsx';
 
 const router = createBrowserRouter([
 {
@@ -23,8 +23,12 @@ const router = createBrowserRouter([
       element: <Recipes/>,
     },
     {
-      path: "allrecipes",
-      element: <allrecipes/>,
+      path: "Allrecipes",
+      element: <Allrecipes/>,
+    },
+    {
+      path: "RecipePage",
+      element: <RecipePage/>,
     },
   ]
 }
