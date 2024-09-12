@@ -248,3 +248,67 @@ nav a p {
     width: 100%;
     border-bottom: 2px solid black;
 }
+
+
+
+/* -------------------------------------- INDIVIDUAL RECIPE PAGE ---------------------------------------  */
+
+
+.recipesMainCard h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255, .7);
+    padding: 1rem;
+    width: 90%;
+    margin: 2rem auto 3rem auto;
+}
+
+.indRecipeMainBox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.indRecipeSideCardOne {
+    max-width: 55%;
+}
+
+.indRecipeSideCardOne iframe {
+    aspect-ratio: 16 / 9;
+    height: auto;
+    width: 100%;
+}
+
+.instructionDiv {
+    background-color: white;
+    border-radius: 5%;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+.indRecipeSideCardTwo {
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    padding-top: 2rem;
+    border-radius: 5%;
+}
+
+.indRecipeSideCardTwo img {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.ingredientList {
+    width: 40%;
+    margin: auto;
+}
+
+.indRecipeSideCardTwo ul {
+    text-align:start;
+}
+
+
+.extraStuff {
+}
